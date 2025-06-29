@@ -1,0 +1,28 @@
+{
+  "name": "mvp-extracao-de-dados-nao-estruturados",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvictorpdl/MVP-Extracao-de-Dados-Nao-Estruturados.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvictorpdl/MVP-Extracao-de-Dados-Nao-Estruturados/issues"
+  },
+  "homepage": "https://github.com/jvictorpdl/MVP-Extracao-de-Dados-Nao-Estruturados#readme",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
